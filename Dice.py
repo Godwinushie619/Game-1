@@ -8,7 +8,6 @@ from PIL import Image
 st.set_page_config(page_title="Dice game", page_icon="🎲🎲🎲🎲", layout="wide")
 st.sidebar.image("dice_animation.gif",width=1000)
 
-if st.button
 
 def dice_game():
     a, b = np.random.randint(1,7,2)
